@@ -1,0 +1,29 @@
+{
+    "age": "వయస్సు:",
+    "healthStatus": "ఆరోగ్య స్థితి:",
+    "income": "ఆదాయం:",
+    "expenses": "చివరికాలు:",
+    "financialGoals": "ఆర్థిక లక్ష్యాలు:",
+    "maritalStatus": "వివాహ స్థితి:",
+    "numDependents": "బాలురకు సంఖ్య:",
+    "debtsLiabilities": "ఋణాలు మరియు బాధ్యతలు:",
+    "riskTolerance": "రిస్క్ సహిష్ణుత:",
+    "futureFinancialNeeds": "భవిష్యత్తు ఆర్థిక అవసరాలు:",
+    "excellent": "అద్భుతం",
+    "good": "మంచి",
+    "fair": "సరియైన",
+    "high": "అధిక",
+    "medium": "మధ్యస్థం",
+    "low": "తక్కువ",
+    "married": "వివాహితులు",
+    "single": "అనివార్యులు",
+    "divorced": "వివాహ విచ్ఛేదితులు",
+   
+    "retirementPlanning": "పేదవుల పాఠశాల నుండి ధనం సంపాదించుకోవటం",
+    "wealthAccumulation": "జీవిత సహాయకులకు డబ్బుకొండా అందించడం",
+    "estatePlanning": "విరిగి నిర్ణయించుకోవటం",
+    "educationFunding": "పిల్లల విద్యాభ్యాసంకు ధనాన్ని అందుకోండి",
+    "Provide for spouse's retirement": "జీవిత సహాయకుల తిరిగి కొనసాగండి",
+    "Leave a legacy": "పూర్విక స్మరణ"
+   
+}

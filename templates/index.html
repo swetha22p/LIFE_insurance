@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Insurance Prediction</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body style="background-image: url('https://www.shutterstock.com/image-photo/red-toy-umbrella-wooden-doll-260nw-2135288951.jpg');background-size: cover; background-position: center;">
+</body>
+<body>
+    <h1>Life Insurance Prediction</h1>
+    <form id="predictionForm">
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="Age" required min="20" max="70"><br>
+        
+        <label for="healthStatus">Health Status:</label><br>
+        <select id="healthStatus" name="Health_Status" required>
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Fair">Fair</option>
+        </select><br>
+        
+        <label for="income">Income:</label><br>
+        <input type="number" id="income" name="Income" required><br>
+        
+        <label for="expenses">Expenses:</label><br>
+        <input type="number" id="expenses" name="Expenses" required><br>
+        
+        <label for="financialGoals">Financial Goals:</label><br>
+        <select id="financialGoals" name="Financial_Goals" required>
+            <option value="Retirement planning">Retirement planning</option>
+            <option value="Wealth accumulation">Wealth accumulation</option>
+            <option value="Estate planning">Estate planning</option>
+        </select><br>
+        
+        <label for="maritalStatus">Marital Status:</label><br>
+        <select id="maritalStatus" name="Marital_Status" required>
+            <option value="Married">Married</option>
+            <option value="Single">Single</option>
+            <option value="Divorced">Divorced</option>
+        </select><br>
+        
+        <label for="numDependents">Number of Dependents:</label><br>
+        <input type="number" id="Number_of_Dependents" name="Number_of_Dependents" required><br>
+        
+        <label for="debtsLiabilities">Debts and Liabilities:</label><br>
+        <input type="number" id="Debts_Liabilities" name="Debts_Liabilities" required><br>
+        
+        <label for="riskTolerance">Risk Tolerance:</label><br>
+        <select id="Risk_Tolerance" name="Risk_Tolerance" required>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select><br>
+        
+        <label for="futureFinancialNeeds">Future Financial Needs:</label><br>
+        <select id="Future_Financial_Needs" name="Future_Financial_Needs" required>
+            <option value="Fund children's education">Fund children's education</option>
+            <option value="Provide for spouse's retirement">Provide for spouse's retirement</option>
+            <option value="Leave a legacy">Leave a legacy</option>
+        </select><br>
+        
+        <button type="submit">Predict</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('predictionForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            var formData = new FormData(this);
+            
+            fetch('/predict', {
+                method: 'POST',
+                body: JSON.stringify(Object.fromEntries(formData)),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                var resultText = 'Predicted Insurance Type: ' + data.predicted_insurance_type + '<br>';
+                resultText += 'Eligibility: ' + data.eligibility;
+                document.getElementById('result').innerHTML = resultText;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+    </script>
+    
+</body>
+</html>

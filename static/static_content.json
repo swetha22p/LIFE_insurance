@@ -1,0 +1,28 @@
+{
+    "headings": [
+        {"language": "telugu", "text": "లైఫ్ ఇన్షురెన్స్ అంచనా"},
+        {"language": "hindi", "text": "लाइफ इंश्योरेंस पूर्वानुमान"},
+        {"language": "english", "text": "Life Insurance Prediction"}
+    ],
+    "labels": [
+        {"language": "telugu", "age": "వయస్సు:", "healthStatus": "ఆరోగ్య స్థితి:", "income": "ఆదాయం:", "expenses": "చివరికాలు:",
+         "financialGoals": "ఆర్థిక లక్ష్యాలు:", "maritalStatus": "వివాహ స్థితి:", "numDependents": "బాలురకు సంఖ్య:",
+         "debtsLiabilities": "ఋణాలు మరియు బాధ్యతలు:", "riskTolerance": "రిస్క్ సహిష్ణుత:", "futureFinancialNeeds": "భవిష్యత్తు ఆర్థిక అవసరాలు:"},
+        {"language": "hindi", "age": "आयु:", "healthStatus": "स्वास्थ्य स्थिति:", "income": "आय:", "expenses": "खर्चे:",
+         "financialGoals": "आर्थिक लक्ष्य:", "maritalStatus": "वैवाहिक स्थिति:", "numDependents": "आश्रितों की संख्या:",
+         "debtsLiabilities": "कर्ज और लाभ:", "riskTolerance": "जोखिम सहिष्णुता:", "futureFinancialNeeds": "भविष्य की आर्थिक आवश्यकताएं:"},
+        {"language": "english", "age": "Age:", "healthStatus": "Health Status:", "income": "Income:", "expenses": "Expenses:",
+         "financialGoals": "Financial Goals:", "maritalStatus": "Marital Status:", "numDependents": "Number of Dependents:",
+         "debtsLiabilities": "Debts and Liabilities:", "riskTolerance": "Risk Tolerance:", "futureFinancialNeeds": "Future Financial Needs:"}
+    ],
+    "select_options": [
+        {"language": "telugu", "healthStatus": ["ఉత్తమ", "మంచి", "నిజమాని"], "financialGoals": ["రెటైర్‌మెంట్ ప్రణాళిక", "సంపద స్వరూపణ", "సొంతం ప్రణాళిక"], "maritalStatus": ["పెళ్లితరము", "గ్రామీణ", "తలియుడు"]},
+        {"language": "hindi", "healthStatus": ["उत्तम", "अच्छा", "साफ"], "financialGoals": ["पेंशन योजना", "संपत्ति निर्माण", "अविरल नियोजन"], "maritalStatus": ["शादीशुदा", "अविवाहित", "बीवाहित"]},
+        {"language": "english", "healthStatus": ["Excellent", "Good", "Fair"], "financialGoals": ["Retirement planning", "Wealth accumulation", "Estate planning"], "maritalStatus": ["Married", "Single", "Divorced"]}
+    ],
+    "button_text": [
+        {"language": "telugu", "text": "అంచనా"},
+        {"language": "hindi", "text": "पूर्वानुमान"},
+        {"language": "english", "text": "Predict"}
+    ]
+}

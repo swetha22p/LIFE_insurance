@@ -1,0 +1,43 @@
+Age,Health_Status,Income,Expenses,Financial_Goals,Marital_Status,Number_of_Dependents,Debts_Liabilities,Risk_Tolerance,Future_Financial_Needs,Eligibility,Life_Insurance_Type
+30,Excellent,70000,30000,Retirement planning,Married,2,50000,High,Fund children's education,1,Term
+45,Good,90000,40000,Wealth accumulation,Single,0,20000,Medium,Provide for spouse's retirement,0,Whole Life
+35,Excellent,80000,35000,Estate planning,Married,1,30000,High,Leave a legacy,1,Universal
+50,Fair,100000,50000,Retirement planning,Married,3,70000,Medium,Fund children's education,1,Variable Universal
+40,Good,75000,35000,Wealth accumulation,Divorced,2,40000,Low,Provide for aging parents,0,Indexed Universal
+55,Excellent,120000,60000,Estate planning,Married,2,80000,High,Leave a legacy,1,Whole Life
+30,Excellent,72000,32000,Retirement planning,Single,0,30000,High,Fund children's education,1,Term
+38,Excellent,85000,38000,Wealth accumulation,Married,1,35000,Medium,Provide for spouse's retirement,1,Whole Life
+42,Good,95000,42000,Wealth accumulation,Married,2,40000,Medium,Save for a home,1,Universal
+48,Good,110000,48000,Retirement planning,Single,0,25000,Medium,Fund children's education,1,Variable Universal
+37,Excellent,78000,36000,Estate planning,Married,1,40000,High,Leave a legacy,1,Indexed Universal
+52,Excellent,115000,55000,Wealth accumulation,Married,2,60000,High,Provide for aging parents,1,Whole Life
+34,Fair,68000,30000,Retirement planning,Married,2,45000,Medium,Fund children's education,1,Term
+46,Good,92000,42000,Wealth accumulation,Divorced,1,20000,Low,Provide for aging parents,0,Universal
+39,Good,88000,38000,Estate planning,Married,2,35000,Medium,Save for a home,1,Indexed Universal
+41,Excellent,96000,40000,Retirement planning,Married,3,50000,High,Leave a legacy,1,Whole Life
+49,Fair,105000,48000,Wealth accumulation,Single,0,30000,Medium,Fund children's education,1,Variable Universal
+33,Excellent,74000,34000,Retirement planning,Single,0,25000,High,Fund children's education,1,Term
+56,Excellent,125000,60000,Estate planning,Married,2,70000,High,Leave a legacy,1,Whole Life
+43,Good,97000,43000,Wealth accumulation,Married,1,40000,Medium,Provide for aging parents,1,Universal
+36,Fair,80000,37000,Retirement planning,Divorced,2,50000,Low,Fund children's education,0,Indexed Universal
+50,Good,110000,50000,Estate planning,Married,3,60000,Medium,Leave a legacy,1,Variable Universal
+38,Excellent,86000,38000,Wealth accumulation,Married,2,45000,Medium,Provide for aging parents,1,Whole Life
+31,Excellent,73000,31000,Retirement planning,Single,0,20000,High,Fund children's education,1,Term
+47,Good,93000,43000,Retirement planning,Married,2,55000,Medium,Provide for aging parents,1,Universal
+40,Excellent,97000,42000,Estate planning,Married,3,60000,High,Leave a legacy,1,Whole Life
+35,Fair,78000,35000,Wealth accumulation,Single,1,25000,Low,Fund children's education,1,Indexed Universal
+53,Good,120000,55000,Retirement planning,Married,2,70000,Medium,Fund children's education,1,Variable Universal
+32,Excellent,75000,32000,Estate planning,Married,1,25000,High,Save for a home,1,Whole Life
+44,Excellent,99000,45000,Retirement planning,Married,2,50000,High,Leave a legacy,1,Universal
+37,Fair,82000,38000,Wealth accumulation,Single,0,30000,Low,Provide for aging parents,1,Indexed Universal
+51,Excellent,115000,52000,Estate planning,Married,3,65000,Medium,Leave a legacy,1,Variable Universal
+39,Good,90000,40000,Retirement planning,Married,2,50000,Medium,Fund children's education,1,Whole Life
+33,Good,76000,33000,Wealth accumulation,Single,1,20000,Medium,Provide for aging parents,1,Universal
+57,Excellent,130000,62000,Retirement planning,Married,3,75000,High,Leave a legacy,1,Variable Universal
+41,Excellent,98000,43000,Estate planning,Married,2,55000,High,Save for a home,1,Whole Life
+48,Fair,108000,50000,Wealth accumulation,Married,3,70000,Low,Fund children's education,1,Indexed Universal
+36,Excellent,84000,38000,Retirement planning,Married,1,40000,High,Fund children's education,1,Term
+54,Good,122000,58000,Estate planning,Married,2,80000,Medium,Leave a legacy,1,Whole Life
+34,Fair,76000,34000,Wealth accumulation,Single,0,25000,Low,Provide for aging parents,1,Indexed Universal
+58,Excellent,135000,65000,Retirement planning,Married,3,80000,High,Fund children's education,1,Universal
+42,Good,97000,44000,Estate planning,Married,2,60000,Medium,Leave a legacy,1,Variable Universal
